@@ -1,6 +1,6 @@
-#Ask the user to input their full name.
-#Convert the input to lowercase.
-#Print the lowercase name.
+# Ask the user to input their full name.
+# Convert the input to lowercase.
 
-full_name = input("Enter your full name: ")
-print(full_name.lower())  # Converts to lowercase
+def to_lowercase(name):
+    # Converts the input string to lowercase
+    return name.lower()

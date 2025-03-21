@@ -1,6 +1,6 @@
-#Ask the user to input their full name.
-#Count the number of characters (excluding spaces).
-#Print the character count.
+# Ask the user to input their full name.
+# Count the number of characters excluding spaces.
 
-full_name = input("Enter your full name: ")
-print(len(full_name.replace(" ", "")))  # Counts characters, ignoring spaces
+def count_characters(name):
+    # Counts the number of characters excluding spaces
+    return len(name.replace(" ", ""))

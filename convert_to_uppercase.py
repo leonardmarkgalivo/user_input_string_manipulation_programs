@@ -1,6 +1,6 @@
-#Ask the user to input their full name.
-#Convert the input to uppercase.
-#Print the uppercase name.
+# Ask the user to input their full name.
+# Convert the input to uppercase.
 
-full_name = input("Enter your full name: ")
-print(full_name.upper())  # Converts to uppercase
+def to_uppercase(name):
+    # Converts the input string to uppercase
+    return name.upper()

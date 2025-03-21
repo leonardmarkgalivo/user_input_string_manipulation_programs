@@ -1,7 +1,8 @@
-#Ask the user to input their full name with leading spaces.
-#Remove the spaces at the beginning.
-#Print the cleaned name.
+# Ask the user to input their full name with leading spaces.
+# Remove the spaces at the beginning.
 
-full_name = input("Enter your full name with spaces at the beginning: ")
-print(full_name.lstrip())  # Removes leading spaces
+def remove_leading_spaces(name):
+    # Removes leading spaces from the input string
+    return name.lstrip()
 
+# Print the cleaned name.

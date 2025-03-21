@@ -1,8 +1,7 @@
-#Ask the user to input a number (0-1000).
-#Convert the number into a string.
-#Pad it with leading zeros to make it 6 digits long.
-#Print the formatted number.
+# Ask the user to input a number (0-1000).
+# Format the number into 6-digit format by adding leading zeros.
 
-number = input("Enter a number (0-1000): ")
-print(number.zfill(6))  # Pads with leading zeros
+def format_number(number):
+    # Converts the input number to a 6-digit string with leading zeros
+    return str(number).zfill(6)
 

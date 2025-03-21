@@ -1,6 +1,6 @@
-#Ask the user to input their full name in incorrect casing.
-#Reverse the casing of each character (lowercase → uppercase, uppercase → lowercase).
-#Print the modified name.
+# Ask the user to input their full name.
+# Reverse the casing of each letter.
 
-full_name = input("Enter your full name in incorrect casing: ")
-print(full_name.swapcase())  # Swaps case of each character
+def reverse_casing(name):
+    # Swaps the case of each letter in the input string
+    return name.swapcase()

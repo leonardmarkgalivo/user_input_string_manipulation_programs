@@ -1,7 +1,6 @@
-#Ask the user to input a complete sentence.
-#Split the sentence into words.
-#Count the number of words.
-#Print the word count.
+# Ask the user to input a complete statement.
+# Count the number of words in the input.
 
-sentence = input("Enter a complete statement: ")
-print(len(sentence.split()))  # Splits sentence into words and counts them
+def count_words(sentence):
+    # Counts the number of words in a sentence
+    return len(sentence.split())
