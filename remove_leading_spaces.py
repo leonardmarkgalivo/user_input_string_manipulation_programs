@@ -6,3 +6,5 @@ def remove_leading_spaces(name):
     return name.lstrip()
 
 # Print the cleaned name.
+user_input = input("Enter your full name with leading spaces: ")
+print("Output:", remove_leading_spaces(user_input))

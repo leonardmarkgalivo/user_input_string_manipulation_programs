@@ -4,3 +4,7 @@
 def to_uppercase(name):
     # Converts the input string to uppercase
     return name.upper()
+
+# Print the uppercase name.
+user_input = input("Enter your full name: ")
+print("Output:", to_uppercase(user_input))
